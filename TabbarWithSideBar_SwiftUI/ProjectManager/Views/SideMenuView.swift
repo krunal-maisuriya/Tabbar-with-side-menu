@@ -38,7 +38,7 @@ struct SideMenuView: View {
                     print("Settings tapped")
                     withAnimation {
                         showMenu = false
-                        selectedIndex = 4
+                        selectedIndex = 3
                     }
                 }) {
                     Text("Settings")
@@ -51,7 +51,7 @@ struct SideMenuView: View {
                     print("Profile tapped")
                     withAnimation {
                         showMenu = false
-                        selectedIndex = 3
+                        selectedIndex = 2
                     }
                 }) {
                     Text("Profile")
